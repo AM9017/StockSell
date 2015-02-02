@@ -1,0 +1,266 @@
+/* 
+    Created on : Nov 27, 2014, 4:18:05 PM
+    Author     : popi
+*/
+html{
+    background-color: #FAFAD2;
+}
+
+body {
+    color:black;
+    width: 1400px;
+    height: 1600px;
+    font-family: Times New Roman,Arial;
+    font-size: 100%;
+}
+
+h1 { 
+    font-size: 200%;
+    background-color: #A8D13B;
+    text-shadow:1px 1px grey;
+    border: 5px solid #6B5344;
+    text-align:center;
+    padding-top: 25px;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 180px;
+    overflow: hidden;    
+}
+
+li {
+    float: left;
+}
+   
+a:link,a:visited {
+    display: block;
+    width: 220px;
+    font-weight: bold;
+    color: white;
+    background-color: #6B5344;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #4B3A30;
+}
+
+a:active{
+    color: #A8D13B;
+}
+
+#welcomeim {
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+    height: 300px;
+    width: 500px;
+}
+
+/* add.jsp */
+
+#add {
+    position: absolute;
+    top: 260px;
+    left: 250px;
+    font-size: 150%;
+    color: black;
+}
+
+#add2 {
+    position: absolute;
+    top: 370px;
+    left: 300px;
+    font-size: 150%;
+    color: black;
+}
+
+
+/* register.jsp */
+
+#eisagwgi{
+    position: absolute;
+    top: 280px;
+    left: 400px;
+    font-size: 150%;
+    color: black;
+    text-decoration: underline;
+}
+
+#eggrafi{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 150%;
+    color: black;
+}
+
+.error{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 70%;
+    color: red;
+    font-style: normal;
+}
+        
+.star{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 80%;
+    color: red;
+    font-style: normal;
+}	
+
+#min{
+    position:absolute;
+    top:260px;
+    font-size:80%;
+}
+
+/*login.jsp*/
+#eisagwgi2 {
+    border-style: dashed;
+    border-color: #808080;
+    border-width: 1px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding-top: 15px;
+    position:absolute;
+    top:310px;
+    left:400px;
+    font-size: 150%;
+    color:black;
+    text-decoration: underline;
+}
+		
+#sundesi {
+    position: absolute;
+    top: 380px;
+    left: 430px;
+    font-size: 130%;
+    color: black;
+    font-style: italic;
+}
+
+
+/*add2.jsp*/
+#loginfirst {
+    position: absolute;
+    top: 270px;
+    left: 190px;
+    font-size: 150%;
+    color: black;
+}
+
+#eggr_sund {
+    position: absolute;
+    top: 430px;
+    left: 300px;
+    font-size: 150%;
+    color: black;
+}
+
+#epistrofi {
+    position: absolute;
+    top: 460px;
+    left: 800px;
+    font-size: 150%;
+    color: black;
+}
+
+#pleaselogin {
+    position: absolute;
+    top: 750px;
+    left: 320px;
+}
+
+/*logout.jsp*/
+#aposundesi {
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    font-size: 150%;
+    color: black;
+}
+
+/*home.jsp*/
+
+#home1 { 
+    position:absolute;
+    font-size: 200%;
+    color: green;
+    top:230px;
+    left:300px;
+}
+
+/*info.jsp*/
+#info2 {
+    position:absolute;
+    font-size: 150%;
+    color: black;
+    top:280px;
+    left:250px;
+}
+
+#diagrafi {
+    position:absolute;
+    font-size: 150%;
+    color: black;
+    top:500px;
+    left:300px;
+}
+
+/*index*/
+#emfanisi {
+    position:absolute;
+    font-size: 100%;
+    color: black;
+    top:280px;
+    left:200px;
+}
+
+#emfanisi2 {
+    position:absolute;
+    font-size: 100%;
+    color: black;
+    top:340px;
+    left:200px;
+}
+
+/*show.jsp,show2.jsp*/
+#steilemnm {
+    position:absolute;
+    font-size: 120%;
+    color: black;
+    top:360px;
+    left:600px;
+}
+
+#steilemnm2 a{
+    position:absolute;
+    font-size: 150%;
+    top:390px;
+    left:750px;
+    text-transform:lowercase;
+    color:blue;
+    background-color: #FAFAD2;
+}
+
+#steilemnm2 a:hover{
+    color:blue;
+    text-decoration:underline;
+}
+
+#steilemnm2 a:active{
+    color: red;
+}
