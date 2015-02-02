@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS `eggrafi` (
 --
 
 INSERT INTO `eggrafi` (`Name`, `Surname`, `Email`, `Username`, `Password`) VALUES
-('popi', 'papa', 'pop@hotmail.com', 'popi', 'popi'),
+('popi', 'papa', 'popi@gmail.com', 'popi', 'popi'),
 ('anastasia', 'papa', 'ana@gmail.com', 'ana', 'ana'),
 ('dim', 'megas', 'dim@gmail.com', 'dim', 'dim'),
 ('sakis', 'gagas', 'sakis@gmail.com', 'sakis', 'sakis');
